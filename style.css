@@ -1,0 +1,183 @@
+@font-face{
+  font-family: Young_Serif;
+  src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf');
+}
+
+@font-face{
+  font-family: Outfit;
+  src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+}
+body{
+  background-color: hsl(30, 54%, 90%);
+  font-family: Outfit;
+  font-size: 14px;
+  color: hsl(30, 10%, 34%);
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.card{
+  background-color: white;
+  border-radius: 15px;
+  height: 100%;
+  width: 600px;
+}
+
+.image{
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  
+}
+
+.dish-name{
+  margin: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 35px;
+  font-family: Young_Serif;
+  font-weight: bolder;
+  color: hsl(24, 5%, 18%)
+}
+
+.dish-info{
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+
+.prep-info{
+  background-color: hsl(330, 100%, 98%);
+  width: 88%;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.prep-heading{
+  
+  padding-left: 10px;
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+.prep-info-list{
+  padding-bottom: 12px;
+}
+
+.prep-info-list::marker{
+  color: hsl(332, 51%, 32%);
+}
+
+.ingredients{
+  padding: 5px 25px;
+}
+
+.ing-head{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Young_Serif;
+  margin-bottom: 0px;
+}
+
+.ing-list{
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 8px;
+}
+
+.ing-list-item{
+  padding-top: 10px;
+}
+
+.ing-list-item::marker{
+  color: hsl(14, 45%, 36%);
+}
+
+.instructions{
+  padding: 5px 25px;
+}
+
+.instructions p{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Young_Serif;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+.instructions ol{
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 8px;
+}
+
+.instructions li{
+  padding-top: 12px;
+}
+
+.nutrition{
+  padding: 5px 25px;
+}
+
+.nut-para{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Young_Serif;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+.calories{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 80px;
+}
+
+.calories p{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+
+.line{
+  width: 92%;
+  opacity: 0.2;
+}
+
+.table-line{
+  width: 92%;
+  opacity: 0.2;
+  margin-top: 0px;
+}
+
+.col-para{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+
+
